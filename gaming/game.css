@@ -1,0 +1,360 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    background-color: #333;
+    position: relative;
+    bottom: 60px;
+}
+.search{
+    --padding: 14px
+
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    width: 400px;
+    background: gray;
+    transition: box-shadow 0.25s;
+}
+.search:focus-within{
+    box-shadow: 0 0 2px rgba(255, 252, 252, 0.75);
+}
+.search-input{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 252, 252);
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 400px;
+    height: 50px;
+}
+.search-input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: hsla(0, 4%, 10%, 0.719);
+}
+.nav1 h3{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    right: 90px;
+    bottom: 10px;
+}
+.nav1 span{
+    color: red;
+}
+.maskman{
+    border: 1px solid red;
+    border-radius: 20px;
+    position: relative;
+    left: 180px;
+}
+.nav2 li{
+    list-style: none;
+}
+.nav2 li a{
+    text-decoration: none;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home{
+    background-color: #333;
+    color: white;
+}
+.lib{
+    background-color: #333;
+    color: white;
+}
+.diff{
+    background-color: #333;
+    color: red;
+}
+.social{
+    background-color: #333;
+    color: white;
+}
+.news{
+    background-color: #333;
+    color: white;
+}
+.second-header{
+    background-image: url(./image/coverpic.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 35px;
+}
+.seller{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.seller h2{
+    padding-left: 40px;
+    padding-top: 30px;
+    color: white;
+}
+.group{
+    display: flex;
+    justify-content: space-around;
+}
+.godofwar{
+    width: 350px;
+    height: 400px;
+}
+.trailers{
+    color: white;
+}
+.War{
+    background-color: #AD2B2B;
+    width: 351px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    bottom: 70px;
+    
+}
+.War h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.War p{
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    bottom: 8px;
+}
+.ghost{
+    width: 550px;
+}
+.guard{
+    width: 550px;
+}
+.grp{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.grp h3{
+    color: white;
+}
+.grp p{
+    color: white;
+}
+.guarde{
+    position: relative;
+    left: 30px;
+}
+.game-img{
+    display: flex;
+    margin-left: 80px;
+}
+.game-img img{
+    padding-bottom: 50px;
+}
+.game-img p{
+    padding-left: 40px;
+    padding-top: 40px;
+    color: white;
+}
+.release{
+    display: flex;
+    margin-left: 80px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.release h4{
+    font-size: 20px;
+    color: white;
+}
+.release a{
+   position: relative;
+   left: 50px;
+   top: 20px;
+   font-size: 14px;
+   color: white;
+    border: 1px solid red;
+    width: 95px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/* .line{
+    width: 600px;
+    border-left: 2px solid gray;
+    position: relative;
+    left: 50px;
+} */
+.games{
+    display: flex;
+}
+.gears{
+    background-color: #AD2B2B;
+    width: 180px;
+    height: 120px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+    left: 80px;
+    top: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 7px;
+}
+.key{
+    position: absolute;
+    z-index: 2;
+    top: 2430px;
+    left: 140px;
+    
+}
+.headset{
+    position: absolute;
+    z-index: 2;
+    top: 2380px;
+    left: 430px;
+    
+}
+.tv{
+    position: absolute;
+    z-index: 2;
+    top: 2390px;
+    left: 730px;
+   
+}
+.speaker{
+    position: absolute;
+    z-index: 2;
+    top: 2380px;
+    left: 1030px;
+    
+}
+.gear{
+   display: flex;
+   justify-content: space-between;
+   margin-right: 120px;
+   padding-right: 80px;
+}
+.game-sec{
+    background-image: url(./image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.game-sec h2{
+    padding-left: 80px;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 40px;
+}
+.more1 img{
+    width: 400px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.more1{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 300px;
+}
+.more2{
+   padding-right: 200px;
+   padding-top: 50px;
+   color: white;
+}
+.more2 h2{
+    font-size: 28px;
+}
+.more2 a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.people2{
+    margin-bottom: 30px;
+}
+.latest{
+    padding-left: 80px;
+    font-size: 32px;
+}
+footer{
+    background-color: #333;
+    position: relative;
+    bottom: 60px;
+    height: 80vh;
+}
+.division{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.pays{
+    margin-left: 80px;
+    color: white;
+}
+.address{
+    display: flex;
+}
+.address .add{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.division h3{
+    font-size: 20px;
+    color: white;
+}
+.store{
+    display: flex;
+}
+.googleplay{
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+}
+.appstore{
+    position: relative;
+    bottom: 20px;
+    right: 80px;
+}
+.app{
+    padding-top: 50px;
+}
+.scan{
+    position: relative;
+    bottom: 70px;
+}
+.scan1{
+    padding-left: 0px;
+}
+.scan2{
+    padding-left: 70px;
+}
